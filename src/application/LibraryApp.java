@@ -11,7 +11,6 @@ public class LibraryApp {
         LibraryDAO libraryDAO = new LibraryDAO();
 
         try {
-            System.out.println("Creating authors...");
             Author author1 = new Author("George Orwell");
             Author author2 = new Author("Jane Austen");
             Author author3 = new Author("J.K. Rowling");
